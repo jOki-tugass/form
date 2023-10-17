@@ -11,7 +11,7 @@ img.hdr {
 }
 
 form {
-  max-width: 400px;
+  width: 400px;
   margin: 0 auto;
   background-color: #fff;
   padding: 20px;
