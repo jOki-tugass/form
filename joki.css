@@ -1,6 +1,8 @@
 body {
   background: url(background.png);
   padding: 20px;
+  width: auto;
+  height: 800px;
 }
 
 img.hdr {
@@ -77,6 +79,12 @@ h3#ftr {
 }
 
 @media screen and (min-width: 600px) {
+ 
+  body {
+    width: auto;
+    height: auto;
+  }
+  
   h3#ftr {
     text-align: center;
   }
