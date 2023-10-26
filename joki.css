@@ -1,8 +1,6 @@
 body {
   background: url(background.png);
   padding: 20px;
-  width: auto;
-  height: 800px;
 }
 
 img.hdr {
@@ -13,7 +11,7 @@ img.hdr {
 }
 
 form {
-  width: 400px;
+  width: 320px;
   margin: 0 auto;
   background-color: #fff;
   padding: 20px;
@@ -84,8 +82,11 @@ h3#ftr {
     width: auto;
     height: auto;
   }
-  
+ 
   h3#ftr {
     text-align: center;
   }
-}
+  form {
+    width: 400px;
+  }
+  }
