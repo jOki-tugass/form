@@ -36,9 +36,10 @@ const nama = document.getElementById('nama').value;
 const tugas = document.getElementById('tugas').value;
 const keterangan = document.getElementById('keterangan').value;
 
-const pesanWhatsApp = "Halo, saya ingin joki tugas. Nama: " + nama + ", Tugas : " + tugas +", keterangan: " + keterangan;
+const nomorWhatsApp = '+6285876963536';
+const pesanWhatsApp = `halo saya: ${nama}%0Atugas: ${tugas}%0Aketerangan: ${keterangan}`;
 
-const linkWhatsApp = "https://wa.me/6285876963536?text=" + encodeURIComponent(pesanWhatsApp); window.location.href = linkWhatsApp;
+window.open(`https://wa.me/${nomorWhatsApp}?text=${pesanWhatsApp}`, '_blank');
 }
   </script>
 </body>
